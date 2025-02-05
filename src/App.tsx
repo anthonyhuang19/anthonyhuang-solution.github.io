@@ -12,7 +12,7 @@ interface Solution {
 
 const MOCK_SOLUTIONS: Solution[] = [
   {
-    name: 'two_sum.py',
+    name: '2.two_sum.py',
     content: `def twoSum(self, nums: List[int], target: int) -> List[int]:
     seen = {}
     for i, num in enumerate(nums):
@@ -24,7 +24,7 @@ const MOCK_SOLUTIONS: Solution[] = [
     difficulty: 'easy'
   },
   {
-    name: 'add_two_numbers.py',
+    name: '1.add_two_numbers.py',
     content: `def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
     dummy = ListNode(0)
     curr = dummy
